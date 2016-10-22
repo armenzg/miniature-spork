@@ -10,7 +10,7 @@ Blog: http://jugad2.blogspot.com
 from os.path import exists
 
 def drives():
-    # Limit of 'N' chosen arbitrarily.
+    # Limit of 'N' chosen arbitrarily
     # For letters in the first half of the alphabet:
     for drive in range(ord('A'), ord('N')):
         print('Drive', chr(drive), 'exists:', exists(chr(drive) + ':'))
